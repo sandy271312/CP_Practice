@@ -5,4 +5,4 @@ int count_leaf(Tree *root)
     return 1;
     return count_leaf(root->left)+count_leaf(root->right);
 }
-/// This function will count the number the leaf in a binary tree
+/// This function will count the number the leaf inr a binary tree
